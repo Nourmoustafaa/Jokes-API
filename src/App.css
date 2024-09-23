@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+.myList {
+  list-style-type: none; /* Removes default list bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 12px; /* Removes default margin */
+}
+
+.myList li {
+  padding: 10px; /* Adjust padding as needed */
+  margin-bottom: 5px; /* Adjust margin between list items as needed */
+  background-color: #f0f0f0; /* Background color for list items */
+  border-radius: 5px; /* Optional: Adds rounded corners */
+  transition: background-color 0.3s ease; /* Optional: Smooth transition effect */
+}
+

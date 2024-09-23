@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(252, 252, 252) ;
+}
+.search-form{
+    display:flex;
+    flex-direction: column;
+}
+.search-form input {
+font: 16px arial,sans-serif;
+line-height: 34px;
+background-color: #fff;
+padding:0.5rem;
+vertical-align: top;
+border: none;
+outline: none;
+border-radius: 2px;
+box-shadow: 0 2px 2px 0 rgba(0, 0,0, 0.16),0 0 0 1px rgba(0,0, 0, 0.08);
+transition: box-shadow 200ms cubic-bezier(0.4,0,0.2,1);
+margin: 1rem;
+}
+
+.search-form input :focus{
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2),0 0 0 1px rgba(0,0,0,0.08);
+} 
+button{
+    background-color: #f2f2f2;
+    border: 1px solid #d2d0d0;
+    border-radius: 2px;
+    color: #757575;
+    cursor: default;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: rgb(210, 209, 209); /* Background color on hover */
+  }
